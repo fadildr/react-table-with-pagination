@@ -20,7 +20,7 @@ const TablePagination: React.FC<TablePaginationProps> = ({
         <Pagination
           count={pageCount}
           page={pageIndex + 1}
-          onChange={(event, value) => gotoPage(value - 1)}
+          onChange={(_, value) => gotoPage(value - 1)}
           color="primary"
         />
       </Stack>
