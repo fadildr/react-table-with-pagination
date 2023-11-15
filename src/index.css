@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./styles/tailwind.css";
+.table-wrapper {
+  border-radius: 20px;
+  height: 500px;
+  width: 100%;
+}
+.table-head {
+  height: 50px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 400;
+  border: 1px solid rgb(199, 193, 193);
+}
+
+.table-text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.table-text td {
+  border: 1px solid rgb(199, 193, 193);
+  padding: 10px;
+}
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate-cell {
+  max-width: 650px;
+}
+.wrapper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.input {
+  margin-bottom: 20px;
+}
+.input .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 300px;
+}
